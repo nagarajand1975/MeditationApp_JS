@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossorigin="anonymous">
+    </head>
+    <body>
+     
+    <div class="container">
+            <div class="video-container">
+                <video loop muted >
+                    <source src="./videos/beach.mp4" type="video/mp4">
+                </video>
+            </div>
+            <h1>Relaxing APP</h1>
+            <div class="settings">
+                <h1 style="font-size: 50px;">
+                    <i id="settingsbtn" class="fa fa-cog" aria-hidden="true"></i>
+                  
+                </h1>
+            </div>
+
+            <div class="meditationmode" style="font-size: 50px;color:white;text-align: center;">
+                <div class="clouds">
+                    <i class="fa fa-eercast" aria-hidden="true"></i>
+                </div>
+                <div class="rain">
+                    <i class="fa fa-bath" aria-hidden="true"></i>
+                </div>
+                <div class="lovers">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                </div>
+                <div class="beach">
+                    <i class="fa fa-glass" aria-hidden="true"></i>
+                </div>
+            </div>
+
+            <div class="Time_Display">
+            <audio class="song">
+                <source src="./audios/beach.mp3" />
+            </audio>
+             <h1>Set Your Time</h1>
+            </div>
+           
+            <div class="button-container">
+                <button data-time="300">5 Mins</button>
+                <button data-time="600">10 Mins</button>
+                <button data-time="900">15 Mins</button>
+                <button data-time="1800">30 Mins</button>
+            </div>
+
+            <div class="play-button">
+                <h1 style="font-size: 150px;">
+                    <i id="playbtn" class="fa fa-play-circle" aria-hidden="true"></i>
+                    <i id="stopbtn" class="fa fa-stop-circle" aria-hidden="true" ></i>
+                </h1>
+            </div>
+    </div>
+
+       
+
+      
+    </body>
+    <script src="app.js"></script>
+</html>

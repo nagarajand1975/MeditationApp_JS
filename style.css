@@ -1,0 +1,60 @@
+*{
+    margin :0;
+    padding:0;
+    overflow:hidden;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+video{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index: -1;
+}
+
+.Time_Display h1{
+    font-size: 150px;
+}
+
+.button-container button{
+    
+    width:200px;
+    height:70px;
+    border:2px solid white;
+    border-radius: 50px;
+    font-size: 30px;
+    background: rgba(0,0,0,0.4);
+}
+
+.settings{
+
+    position : absolute;
+    top:10;
+    right:20;
+}
+
+.meditationmode{
+    position: absolute;
+    width: 100;
+    height:360;
+    top:70;
+    right:-150px;
+    background: rgba(0,0,0,0.4);
+    transition-property: right;
+    transition-duration: 2s;
+}
+
+
+.meditationmode .clouds, .beach, lovers, .rain{
+    padding:20px;
+    cursor:pointer;
+} 
